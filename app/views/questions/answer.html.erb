@@ -1,0 +1,21 @@
+<div class="card mb-4">
+  <div class="card-body">
+    <h3 class="card-title"> <%= @question %> </h3>
+    <h4 class="card-subtitle mt-3 text-muted"> - You</h4>
+  </div>
+</div>
+
+
+
+<div class="card">
+  <div class="card-body">
+    <h3 class="card-title"> <%= @answer %>  </h3>
+    <h4 class="card-subtitle mt-3 text-muted">- Coach</h4>
+  </div>
+</div>
+
+
+
+<%= link_to "Ask another question", ask_path, {:class => "btn btn-primary mt-3"}%>
+
+
